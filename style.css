@@ -17,7 +17,7 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: inherit;}
 /*--------------------*/
 
 body{
-    background-color: gray;
+    background-color: #DCDCDC;
     color: black;
 }
 
@@ -33,16 +33,60 @@ body{
 .gaz{
     display: flex;
     flex-direction: column;
-    margin: 55px 0px 0px 170px;
+    margin: 95px 0px 0px 450px;
     font-size: 25px;
+    letter-spacing: 3px;
+}
+
+@media(max-width:1920px){
+        .gaz{
+            max-width:1600px;
+            margin: 95px 0px 0px 450px;
+       }
+}
+
+@media(max-width:1610px){
+    .gaz{
+        max-width:1200px;
+        margin: 95px 0px 0px 170px;
+   }
+}
+
+@media(max-width:1210px){
+    .gaz{max-width:970px;
+    margin: 95px 0px 0px 50px;
+   }
+}
+
+@media(max-width:992px){
+    .gaz{max-width:750px;
+    margin: 95px 0px 0px 0px;
+   }
+}
+
+@media(max-width:767px){
+    .gaz{max-width:none;
+   }
 }
 
 input{
-    width: 150px;
+    width: 175px;
     margin: 7px 0px 7px 0px;
+    border: 1px solid black;
+    font-size: 20px;
 }
 
 button{
     margin: 7px 0px 7px 0px;
-    width: 150px;
+    width: 175px;
+    height: 35px;
+    background-color: black;
+    color: white;
+    font-size: 25px;
+    border: 1px solid white;
+    border-radius: 35px;
+}
+
+.result{
+    letter-spacing: 3px;
 }
