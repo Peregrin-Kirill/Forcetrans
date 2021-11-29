@@ -71,6 +71,7 @@ body{
 @media(max-width:767px){
     .gaz{max-width:none;
     padding: 0px 15px;
+    margin: 0px auto;
    }
 }
 
@@ -99,3 +100,4 @@ color: red;
 .bid{
 color: green;
 }
+
