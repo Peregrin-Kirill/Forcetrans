@@ -35,7 +35,6 @@ body{
     flex-direction: column;
     margin: 95px 0px 0px 450px;
     font-size: 25px;
-    letter-spacing: 3px;
 }
 
 @media(max-width:1920px){
@@ -88,5 +87,9 @@ button{
 }
 
 .result{
-    letter-spacing: 3px;
+color: red;
+}
+
+.bid{
+color: green;
 }
