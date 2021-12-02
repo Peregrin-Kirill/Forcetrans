@@ -4,14 +4,14 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href=style.css">
     <title>Калькулятор</title>
 </head>
 <body>
     <div class="container">
         <img class="logo" src="FT__logo2.png" alt="">
         <div class="calculete">
-            <div class="gaz"> Газель NEXT
+            <div class="gaz"> Газель NEXT Дальняк
                 <input type="text" class="distance" name="distance" placeholder="Расстояние" tabindex="1">
                 <input type="text" class="points" name="points" placeholder="Количество точек" tabindex="2">
                 <input type="text" class="pallet" name="pallet" placeholder="Количество палет" tabindex="3">
@@ -22,6 +22,16 @@
                 <div class="proceeds"></div>
                 <div class="bonus"></div>
             </div>
+            <div class="gaz__gor"> Газель NEXT Город
+                <input type="text" class="distance__gor" name="distance__gor" placeholder="Расстояние" tabindex="6">
+                <input type="text" class="points__gor" name="points__gor" placeholder="Количество точек" tabindex="7">
+                <input type="text" class="pallet__gor" name="pallet__gor" placeholder="Количество палет" tabindex="8" disabled>
+                <input type="text" class="money__gor" name="money__gor" placeholder="Ставка заказчика" tabindex="9">
+                <button class="outcome__gor" tabindex="10">Расчет</button>
+                <div class="result__gor"></div>
+                <div class="bid__gor"></div>
+                <div class="proceeds__gor"></div>
+                <div class="bonus__gor"></div>
         </div>
     </div>
     <script src="script.js"></script>
