@@ -44,24 +44,6 @@ body{
     font-size: 20px;
 }
 
-input{
-    width: 200px;
-    margin: 7px 0px 7px 0px;
-    border: 1px solid black;
-    font-size: 30px;
-}
-
-button{
-    margin: 7px 0px 7px 0px;
-    width: 200px;
-    height: 35px;
-    background-color: black;
-    color: white;
-    font-size: 25px;
-    border: 1px solid white;
-    border-radius: 35px;
-}
-
 .result{
 color: red;
 }
@@ -102,4 +84,3 @@ color: red;
 .bid__gor{
 color: green;
 }
-
