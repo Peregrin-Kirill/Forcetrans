@@ -17,7 +17,7 @@ document.querySelector('.outcome__gor').addEventListener('click', ()=>{
     let money__gor = document.querySelector('.money__gor').value;
     let formula__gor = (3600 + (27*distance__gor) + (550*points__gor));
     document.querySelector('.result__gor').innerHTML = ('Себестоимость ' + formula__gor +' рублей');
-    document.querySelector('.bid__gor').innerHTML = ('Желаемая ставка ' + (formula__gor*1.3) + ' рублей');
+    document.querySelector('.bid__gor').innerHTML = ('Желаемая ставка ' + (formula__gor*1.8) + ' рублей');
     document.querySelector('.proceeds__gor').innerHTML = ('Выручка ' + (money__gor-formula__gor) + ' рублей');
     document.querySelector('.bonus__gor').innerHTML = ('Бонусная часть ' + (money__gor-formula__gor)/100*10 + ' рублей');
 })
