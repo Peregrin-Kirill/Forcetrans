@@ -51,12 +51,6 @@ body{
     }
 }
 
-@media screen and (max-width:980px) and (orientation: landscape){
-    .calculete{
-        display: flex;
-        justify-content: space-around;
-    }
-}
 
 .gaz{
     display: flex;
