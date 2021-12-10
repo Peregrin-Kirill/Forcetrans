@@ -44,6 +44,20 @@ body{
     margin-top: 15px;
 }
 
+@media (max-width:980px){
+    .calculete{
+        display:inline-flex;
+        flex-direction:column;
+    }
+}
+
+@media (orientation: landscape){
+    .calculete{
+        display: flex;
+        justify-content: space-around;
+    }
+}
+
 .gaz{
     display: flex;
     flex-direction: column;
