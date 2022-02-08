@@ -9,8 +9,8 @@ flight.addEventListener ('click', function(){
     const distance = document.querySelector('#distance').value;
     const points = document.querySelector('#points').value;
     const pallet = document.querySelector('#pallet').value;
-    document.querySelector('.cost__price').innerHTML = ('Себестоимость  ' + ((distance * 27) /12 * pallet + (points * 250 - 500)) + ' рублей')
-    document.querySelector('.вid').innerHTML = ('Желаемая ставка  ' + ((distance * 35) /12 * pallet + (points * 500 - 500)) + ' рублей')
+    document.querySelector('.cost__price').innerHTML = ('Себестоимость  ' + ((distance * 27) + (points * 250 - 500)) + ' рублей')
+    document.querySelector('.вid').innerHTML = ('Желаемая ставка  ' + ((distance * 35) + (points * 500 - 500)) + ' рублей')
 })
 
 
