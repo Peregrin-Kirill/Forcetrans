@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./CSS/style.css">
+    <title>Калькулятор</title>
+</head>
+<body>
+    <div class="shell">
+        <div class="head">
+            <img class="logo" src="./IMG/FT__logo.png" alt="">
+        </div>
+        <div class="button">
+            <button id="flight" class="buttons">Рейс</button>
+            <button id="sity" class="buttons">Город</button>
+            <button id="clear" class="buttons">Очистить</button>
+        </div>
+        <div class="special">
+        <input id="special" type="checkbox"> Догруз
+        </div>
+        <!-- <div class="text">
+            <p>Расстояние</p>
+            <p>Колличество точек</p>
+            <p>Объем груза</p>
+        </div> -->
+        <div class="input">
+            <input id="distance" class="field" type="tel" placeholder="Расстояние">
+            <input id="points" class="field" type="tel" placeholder="Колличество точек">
+            <input id="pallet" class="field" type="tel" placeholder="Объем груза">
+        </div>
+        <div class="result">
+        <div class="cost__price"></div>
+        <div class="вid"></div>
+        </div>
+    </div>
+    <script src="./JS/script.js"></script>
+</body>
+</html>
