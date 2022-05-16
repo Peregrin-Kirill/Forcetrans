@@ -6,7 +6,7 @@ function init() {
     // Минимальная стоимость.
         MINIMUM_COST = 500,
         myMap = new ymaps.Map('map', {
-            center: [60.906882, 30.067233],
+            center: [55.755819, 37.617644],
             zoom: 9,
             controls: []
         }),
